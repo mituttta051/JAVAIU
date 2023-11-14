@@ -14,7 +14,6 @@ public class Ex1 {
             out.write(buffer, 0, buffer.length);
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
-            System.out.println(e.getMessage());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
